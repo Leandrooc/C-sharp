@@ -17,7 +17,7 @@ namespace firstProgram
             int odds = 0;
             for (int a = 1; a <= number; a++)
             {
-                if ((a / 2) * 2 != a)
+                if (a % 2 != 0)
                 {
                     Console.WriteLine(a);
                     odds++;
